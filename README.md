@@ -23,7 +23,8 @@ Las personas vivimos diferentes emociones y sensaciones cuando estamos menstruan
 
 ## Diseño de la Interfaz de Usuario:
 
-Prototipos:
+* Prototipos:
+
 <img src="src/images/low-fi.jpeg" alt="paper-image" width="500"/>
 <img src="src/images/hi-fi2.jpeg" alt="paper-image" width="500"/>
 
