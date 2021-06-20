@@ -33,18 +33,18 @@
     width: 40vw;
     margin: 0%;
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
 @media screen and (min-width:1500px) {
-  #allPosts-li {
+  #allPosts-div li {
     height: 15vh;
     width: 35vw;
     padding: 2%;
     margin: 2%;
     font-weight: bolder;
-    font-size: 14px
+    font-size: 15px
   }   
 } 
 
@@ -57,7 +57,7 @@
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: rgb(236, 117, 137);
+    background-color: #f96f90;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,14 +79,6 @@
   }
   #button-submit-edittion{
     font-size: 15px;
-  }
-  #allPosts-li{
-    height: 15vh;
-    width: 60vw;
-    padding: 2%;
-    margin: 2%;
-    font-weight: bolder;
-    font-size: 12px
   }
   /* Add post view  vista iphone 8*/
   #new-post {
@@ -127,16 +119,24 @@
   } 
   
   #we-are {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
     justify-self: center;
     align-self: start;
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
   }
   
   #motivation {
-    width: 800px;
-    height: 800px;
-  }
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    width: 35vw;
+    height: 70vh;
+  } 
 }
 
 @media screen and (min-width: 2001px) and (max-width: 4000px){
@@ -159,21 +159,20 @@
     display: grid;
     grid-row-start: 2;
     grid-row-end: 3;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
   } 
   
   #we-are {
-    width: 800px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-self: center;
+    align-self: start;
+    width: 700px;
     height: 500px;
-    margin-top: 3%;
   }
-
-  #motivation {
-    width: 800px;
-    height: 600px;
-    margin-top: 4%;
-  } 
-
   #footer-div{
     font-size: 16px;
   }
